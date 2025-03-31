@@ -1,8 +1,14 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
 .flex-container {
     width: 700px;
     height: 300px;
     display: flex;
-    background-color: #f0f0f0;
     justify-content: space-around;
     align-items: stretch;
 }
