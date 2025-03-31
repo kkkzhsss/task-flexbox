@@ -1,6 +1,35 @@
-html,
-body,
-#root {
-    height: 100%;
-    margin: 0;
+.flex-container {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.flex-container > div {
+    width: 100px;
+    height: 100px;
+    background-color: #daa520;
+    border-radius: 50%;
+}
+
+.flex-container > div:nth-child(1) {
+    align-self: flex-start;
+}
+
+.flex-container > div:nth-child(2) {
+    align-self: center;
+}
+
+.flex-container > div:nth-child(3) {
+    align-self: flex-end;
+}
+
+.flex-container > div:nth-child(4) {
+    align-self: center;
+}
+
+.flex-container > div:nth-child(5) {
+    align-self: flex-start;
 }
